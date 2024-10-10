@@ -43,7 +43,7 @@ namespace DotNet8.AuditLogMiniProject.Infrastructure.Features.Blog
             Result<BlogDTO> result;
             try
             {
-                var item = await _context.Tbl_Blog.FindAsync(blogRequest.ToEntity(), cs);
+                var item = await _context.Tbl_Blog.FindAsync([id, cs], cancellationToken: cs);
                 if (item is null)
                 {
                     result = Result<BlogDTO>.NotFound();

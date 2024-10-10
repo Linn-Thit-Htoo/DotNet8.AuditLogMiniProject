@@ -35,15 +35,14 @@ namespace DotNet8.AuditLogMiniProject.Infrastructure.Interceptors
             {
                 foreach (var entry in modifiedEntries)
                 {
-                    var entityId = entry.Properties.First(p => p.Metadata.IsPrimaryKey()).CurrentValue;
-                    var item = await context.Set<Tbl_Audit>().FindAsync(new object?[] { entityId, cancellationToken }, cancellationToken: cancellationToken);
-                    ArgumentNullException.ThrowIfNull(item);
+                    var audit = new Tbl_Audit
+                    {
+                        UpdatedDate = DateTime.Now,
+                        EntityName = entry.Entity.GetType().Name,
+                        Operation = "Updated",
+                    };
 
-                    item.UpdatedDate = DateTime.Now;
-                    item.Operation = "Updated";
-                    item.EntityName = entry.Entity.GetType().Name;
-
-                    context.Update(item);
+                    await context.Set<Tbl_Audit>().AddAsync(audit, cancellationToken);
                 }
             }
 

@@ -22,5 +22,12 @@ namespace DotNet8.AuditLogMiniProject.Presentation.Features.Blog
             var result = await _blogService.AddBlogAsync(blogRequest, cs);
             return Content(result);
         }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateBlog([FromBody] BlogRequestDTO blogRequest, int id, CancellationToken cs)
+        {
+            var result = await _blogService.UpdateBlogAsync(blogRequest, id, cs);
+            return Content(result);
+        }
     }
 }
