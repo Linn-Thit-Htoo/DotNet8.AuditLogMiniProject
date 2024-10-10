@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DotNet8.AuditLogMiniProject.DTOs\DotNet8.AuditLogMiniProject.DTOs.csproj" />
+    <ProjectReference Include="..\DotNet8.AuditLogMiniProject.Shared\DotNet8.AuditLogMiniProject.Shared.csproj" />
+    <ProjectReference Include="..\DotNet8.AuditLogMiniProject.Utils\DotNet8.AuditLogMiniProject.Utils.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8.AuditLogMiniProject
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8.AuditLogMiniProject.Utils", "DotNet8.AuditLogMiniProject.Utils\DotNet8.AuditLogMiniProject.Utils.csproj", "{13648BC2-DE67-452E-910B-FFC08A81506F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8.AuditLogMiniProject.DTOs", "DotNet8.AuditLogMiniProject.DTOs\DotNet8.AuditLogMiniProject.DTOs.csproj", "{F35D1522-6B9C-4EE1-8364-D78F6CAF1C58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{13648BC2-DE67-452E-910B-FFC08A81506F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13648BC2-DE67-452E-910B-FFC08A81506F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13648BC2-DE67-452E-910B-FFC08A81506F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F35D1522-6B9C-4EE1-8364-D78F6CAF1C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F35D1522-6B9C-4EE1-8364-D78F6CAF1C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F35D1522-6B9C-4EE1-8364-D78F6CAF1C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F35D1522-6B9C-4EE1-8364-D78F6CAF1C58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +74,7 @@ Global
 		{3D1A59B8-CB74-4055-92AE-260173C7A61B} = {C0F0C971-3930-4C87-9C2C-4A2DD9695086}
 		{5351BD8E-C42B-44C1-ADF4-BCD39B9C0D60} = {C0F0C971-3930-4C87-9C2C-4A2DD9695086}
 		{13648BC2-DE67-452E-910B-FFC08A81506F} = {C0F0C971-3930-4C87-9C2C-4A2DD9695086}
+		{F35D1522-6B9C-4EE1-8364-D78F6CAF1C58} = {C0F0C971-3930-4C87-9C2C-4A2DD9695086}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6A927816-93B2-44A1-841C-5D580F6186B8}
