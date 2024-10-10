@@ -22,6 +22,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DotNet8.AuditLogMiniProject.Domain\DotNet8.AuditLogMiniProject.Domain.csproj" />
+    <ProjectReference Include="..\DotNet8.AuditLogMiniProject.Extensions\DotNet8.AuditLogMiniProject.Extensions.csproj" />
+    <ProjectReference Include="..\DotNet8.AuditLogMiniProject.Shared\DotNet8.AuditLogMiniProject.Shared.csproj" />
+    <ProjectReference Include="..\DotNet8.AuditLogMiniProject.Utils\DotNet8.AuditLogMiniProject.Utils.csproj" />
   </ItemGroup>
 
 </Project>
