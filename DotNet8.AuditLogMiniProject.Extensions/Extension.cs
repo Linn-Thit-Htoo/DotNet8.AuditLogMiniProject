@@ -1,4 +1,5 @@
-﻿using DotNet8.AuditLogMiniProject.Domain.Features.Blog;
+﻿using DotNet8.AuditLogMiniProject.Domain.Features.Audit;
+using DotNet8.AuditLogMiniProject.Domain.Features.Blog;
 using DotNet8.AuditLogMiniProject.DTOs.Features.Blog;
 using System;
 using System.Collections.Generic;

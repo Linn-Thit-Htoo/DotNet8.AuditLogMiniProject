@@ -11,6 +11,8 @@ namespace DotNet8.AuditLogMiniProject.Domain.Features.Audit
     {
         [Key]
         public int AuditId { get; set; }
+        public string EntityName { get; set; }
+        public string Operation { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime? UpdatedDate { get; set; }
     }

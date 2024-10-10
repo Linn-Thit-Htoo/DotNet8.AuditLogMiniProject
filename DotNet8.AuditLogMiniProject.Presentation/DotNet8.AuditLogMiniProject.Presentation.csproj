@@ -28,6 +28,7 @@
   <ItemGroup>
     <ProjectReference Include="..\DotNet8.AuditLogMiniProject.Application\DotNet8.AuditLogMiniProject.Application.csproj" />
     <ProjectReference Include="..\DotNet8.AuditLogMiniProject.Domain\DotNet8.AuditLogMiniProject.Domain.csproj" />
+    <ProjectReference Include="..\DotNet8.AuditLogMiniProject.Infrastructure\DotNet8.AuditLogMiniProject.Infrastructure.csproj" />
     <ProjectReference Include="..\DotNet8.AuditLogMiniProject.Shared\DotNet8.AuditLogMiniProject.Shared.csproj" />
   </ItemGroup>
 

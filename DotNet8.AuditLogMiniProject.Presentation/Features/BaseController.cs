@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using DotNet8.AuditLogMiniProject.Shared;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DotNet8.AuditLogMiniProject.Presentation.Features
@@ -7,5 +8,9 @@ namespace DotNet8.AuditLogMiniProject.Presentation.Features
     [ApiController]
     public class BaseController : ControllerBase
     {
+        protected IActionResult Content(object obj)
+        {
+            return Content(obj.ToJson(), "application/json");
+        }
     }
 }

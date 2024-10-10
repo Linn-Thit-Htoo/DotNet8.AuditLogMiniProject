@@ -1,5 +1,6 @@
 ﻿using DotNet8.AuditLogMiniProject.Domain.Features.Audit;
 using DotNet8.AuditLogMiniProject.Domain.Features.Blog;
+using DotNet8.AuditLogMiniProject.Infrastructure.Interceptors;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -11,9 +12,8 @@ namespace DotNet8.AuditLogMiniProject.Infrastructure
 {
     public class AppDbContext : DbContext
     {
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public AppDbContext(DbContextOptions options) : base(options)
         {
-            optionsBuilder.UseSqlServer(@"Server=.;Database=AuditLogMiniProject;User ID=sa;Password=sasa@123;TrustServerCertificate=True;");
         }
 
         public DbSet<Tbl_Blog> Tbl_Blog { get; set; }
