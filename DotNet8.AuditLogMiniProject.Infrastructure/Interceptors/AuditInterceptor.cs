@@ -1,8 +1,4 @@
-﻿global using DotNet8.AuditLogMiniProject.Domain.Features.Audit;
-global using Microsoft.EntityFrameworkCore;
-global using Microsoft.EntityFrameworkCore.Diagnostics;
-
-namespace DotNet8.AuditLogMiniProject.Infrastructure.Interceptors
+﻿namespace DotNet8.AuditLogMiniProject.Infrastructure.Interceptors
 {
     public class AuditInterceptor : SaveChangesInterceptor
     {
