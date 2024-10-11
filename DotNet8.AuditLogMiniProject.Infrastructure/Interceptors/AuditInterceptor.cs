@@ -1,6 +1,6 @@
-﻿using DotNet8.AuditLogMiniProject.Domain.Features.Audit;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Diagnostics;
+﻿global using DotNet8.AuditLogMiniProject.Domain.Features.Audit;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Diagnostics;
 
 namespace DotNet8.AuditLogMiniProject.Infrastructure.Interceptors
 {
