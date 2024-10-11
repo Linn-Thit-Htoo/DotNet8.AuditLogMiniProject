@@ -1,14 +1,4 @@
-﻿using DotNet8.AuditLogMiniProject.Domain.Features.Audit;
-using DotNet8.AuditLogMiniProject.Domain.Features.Blog;
-using DotNet8.AuditLogMiniProject.Infrastructure.Interceptors;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DotNet8.AuditLogMiniProject.Infrastructure
+﻿namespace DotNet8.AuditLogMiniProject.Infrastructure
 {
     public class AppDbContext : DbContext
     {
