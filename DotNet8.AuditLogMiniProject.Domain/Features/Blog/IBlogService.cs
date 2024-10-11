@@ -1,7 +1,4 @@
-﻿global using DotNet8.AuditLogMiniProject.DTOs.Features.Blog;
-global using DotNet8.AuditLogMiniProject.Utils;
-
-namespace DotNet8.AuditLogMiniProject.Domain.Features.Blog;
+﻿namespace DotNet8.AuditLogMiniProject.Domain.Features.Blog;
 
 public interface IBlogService
 {
