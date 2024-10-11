@@ -9,7 +9,10 @@ public class BlogService : IBlogService
         _context = context;
     }
 
-    public async Task<Result<BlogDTO>> AddBlogAsync(BlogRequestDTO blogRequest, CancellationToken cs)
+    public async Task<Result<BlogDTO>> AddBlogAsync(
+        BlogRequestDTO blogRequest,
+        CancellationToken cs
+    )
     {
         Result<BlogDTO> result;
         try
@@ -28,7 +31,11 @@ public class BlogService : IBlogService
         return result;
     }
 
-    public async Task<Result<BlogDTO>> UpdateBlogAsync(BlogRequestDTO blogRequest, int id, CancellationToken cs)
+    public async Task<Result<BlogDTO>> UpdateBlogAsync(
+        BlogRequestDTO blogRequest,
+        int id,
+        CancellationToken cs
+    )
     {
         Result<BlogDTO> result;
         try
