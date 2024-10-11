@@ -1,5 +1,5 @@
-﻿using DotNet8.AuditLogMiniProject.Shared;
-using Microsoft.AspNetCore.Mvc;
+﻿global using DotNet8.AuditLogMiniProject.Shared;
+global using Microsoft.AspNetCore.Mvc;
 
 namespace DotNet8.AuditLogMiniProject.Presentation.Features;
 
