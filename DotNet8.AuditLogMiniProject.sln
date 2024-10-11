@@ -5,23 +5,28 @@ VisualStudioVersion = 17.11.35005.142
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{809525BD-592D-463B-9237-3C28107408E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8.AuditLogMiniProject.Domain", "DotNet8.AuditLogMiniProject.Domain\DotNet8.AuditLogMiniProject.Domain.csproj", "{AEE1DFDD-BF98-4A34-9180-C03FA86FB9EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet8.AuditLogMiniProject.Domain", "DotNet8.AuditLogMiniProject.Domain\DotNet8.AuditLogMiniProject.Domain.csproj", "{AEE1DFDD-BF98-4A34-9180-C03FA86FB9EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8.AuditLogMiniProject.Application", "DotNet8.AuditLogMiniProject.Application\DotNet8.AuditLogMiniProject.Application.csproj", "{BD4B0AA1-7FDC-47B6-BB44-B4A79819233B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet8.AuditLogMiniProject.Application", "DotNet8.AuditLogMiniProject.Application\DotNet8.AuditLogMiniProject.Application.csproj", "{BD4B0AA1-7FDC-47B6-BB44-B4A79819233B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8.AuditLogMiniProject.Infrastructure", "DotNet8.AuditLogMiniProject.Infrastructure\DotNet8.AuditLogMiniProject.Infrastructure.csproj", "{E67047DC-EF48-4C48-B605-5292B2C8B973}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet8.AuditLogMiniProject.Infrastructure", "DotNet8.AuditLogMiniProject.Infrastructure\DotNet8.AuditLogMiniProject.Infrastructure.csproj", "{E67047DC-EF48-4C48-B605-5292B2C8B973}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8.AuditLogMiniProject.Presentation", "DotNet8.AuditLogMiniProject.Presentation\DotNet8.AuditLogMiniProject.Presentation.csproj", "{5EB3CBB9-9814-4553-8C06-6735992D5C7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet8.AuditLogMiniProject.Presentation", "DotNet8.AuditLogMiniProject.Presentation\DotNet8.AuditLogMiniProject.Presentation.csproj", "{5EB3CBB9-9814-4553-8C06-6735992D5C7A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{C0F0C971-3930-4C87-9C2C-4A2DD9695086}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8.AuditLogMiniProject.Shared", "DotNet8.AuditLogMiniProject.Shared\DotNet8.AuditLogMiniProject.Shared.csproj", "{3D1A59B8-CB74-4055-92AE-260173C7A61B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet8.AuditLogMiniProject.Shared", "DotNet8.AuditLogMiniProject.Shared\DotNet8.AuditLogMiniProject.Shared.csproj", "{3D1A59B8-CB74-4055-92AE-260173C7A61B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8.AuditLogMiniProject.Extensions", "DotNet8.AuditLogMiniProject.Extensions\DotNet8.AuditLogMiniProject.Extensions.csproj", "{5351BD8E-C42B-44C1-ADF4-BCD39B9C0D60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet8.AuditLogMiniProject.Extensions", "DotNet8.AuditLogMiniProject.Extensions\DotNet8.AuditLogMiniProject.Extensions.csproj", "{5351BD8E-C42B-44C1-ADF4-BCD39B9C0D60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8.AuditLogMiniProject.Utils", "DotNet8.AuditLogMiniProject.Utils\DotNet8.AuditLogMiniProject.Utils.csproj", "{13648BC2-DE67-452E-910B-FFC08A81506F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet8.AuditLogMiniProject.Utils", "DotNet8.AuditLogMiniProject.Utils\DotNet8.AuditLogMiniProject.Utils.csproj", "{13648BC2-DE67-452E-910B-FFC08A81506F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8.AuditLogMiniProject.DTOs", "DotNet8.AuditLogMiniProject.DTOs\DotNet8.AuditLogMiniProject.DTOs.csproj", "{F35D1522-6B9C-4EE1-8364-D78F6CAF1C58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet8.AuditLogMiniProject.DTOs", "DotNet8.AuditLogMiniProject.DTOs\DotNet8.AuditLogMiniProject.DTOs.csproj", "{F35D1522-6B9C-4EE1-8364-D78F6CAF1C58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "documents", "documents", "{FA67E84D-BC56-498C-84B8-4C1AACB66B9D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
