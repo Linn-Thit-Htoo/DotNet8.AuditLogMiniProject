@@ -1,8 +1,8 @@
-﻿using DotNet8.AuditLogMiniProject.Infrastructure.Interceptors;
-using DotNet8.AuditLogMiniProject.Infrastructure;
-using Microsoft.EntityFrameworkCore;
-using DotNet8.AuditLogMiniProject.Domain.Features.Blog;
-using DotNet8.AuditLogMiniProject.Infrastructure.Features.Blog;
+﻿global using DotNet8.AuditLogMiniProject.Infrastructure.Interceptors;
+global using DotNet8.AuditLogMiniProject.Infrastructure;
+global using Microsoft.EntityFrameworkCore;
+global using DotNet8.AuditLogMiniProject.Domain.Features.Blog;
+global using DotNet8.AuditLogMiniProject.Infrastructure.Features.Blog;
 
 namespace DotNet8.AuditLogMiniProject.Presentation.Dependencies
 {
