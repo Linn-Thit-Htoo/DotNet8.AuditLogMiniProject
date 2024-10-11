@@ -1,7 +1,4 @@
-﻿using DotNet8.AuditLogMiniProject.Domain.Features.Blog;
-using DotNet8.AuditLogMiniProject.DTOs.Features.Blog;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using DotNet8.AuditLogMiniProject.DTOs.Features.Blog;
 
 namespace DotNet8.AuditLogMiniProject.Presentation.Features.Blog
 {
