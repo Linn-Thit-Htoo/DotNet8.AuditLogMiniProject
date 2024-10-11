@@ -1,6 +1,4 @@
-﻿using DotNet8.AuditLogMiniProject.DTOs.Features.Blog;
-
-namespace DotNet8.AuditLogMiniProject.Presentation.Features.Blog
+﻿namespace DotNet8.AuditLogMiniProject.Presentation.Features.Blog
 {
     [Route("api/[controller]")]
     [ApiController]
