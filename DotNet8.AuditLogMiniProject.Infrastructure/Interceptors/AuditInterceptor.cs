@@ -2,15 +2,21 @@
 
 public class AuditInterceptor : SaveChangesInterceptor
 {
-    public override async ValueTask<InterceptionResult<int>> SavingChangesAsync(DbContextEventData eventData, InterceptionResult<int> result, CancellationToken cancellationToken = default)
+    public override async ValueTask<InterceptionResult<int>> SavingChangesAsync(
+        DbContextEventData eventData,
+        InterceptionResult<int> result,
+        CancellationToken cancellationToken = default
+    )
     {
         var context = eventData.Context!;
-        var addedEntries = context.ChangeTracker.Entries()
-                                  .Where(x => x.State == EntityState.Added)
-                                  .ToList();
-        var modifiedEntries = context.ChangeTracker.Entries()
-                                     .Where(x => x.State == EntityState.Modified)
-                                     .ToList();
+        var addedEntries = context
+            .ChangeTracker.Entries()
+            .Where(x => x.State == EntityState.Added)
+            .ToList();
+        var modifiedEntries = context
+            .ChangeTracker.Entries()
+            .Where(x => x.State == EntityState.Modified)
+            .ToList();
 
         if (addedEntries.Count != 0)
         {
