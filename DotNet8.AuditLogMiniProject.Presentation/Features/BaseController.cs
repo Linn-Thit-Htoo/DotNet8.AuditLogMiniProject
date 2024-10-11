@@ -1,7 +1,4 @@
-﻿global using DotNet8.AuditLogMiniProject.Shared;
-global using Microsoft.AspNetCore.Mvc;
-
-namespace DotNet8.AuditLogMiniProject.Presentation.Features;
+﻿namespace DotNet8.AuditLogMiniProject.Presentation.Features;
 
 [Route("api/[controller]")]
 [ApiController]
