@@ -16,7 +16,7 @@ namespace DotNet8.AuditLogMiniProject.Infrastructure.Interceptors
                                          .Where(x => x.State == EntityState.Modified)
                                          .ToList();
 
-            if (addedEntries.Any())
+            if (addedEntries.Count != 0)
             {
                 foreach (var entry in addedEntries)
                 {
@@ -31,7 +31,7 @@ namespace DotNet8.AuditLogMiniProject.Infrastructure.Interceptors
                 }
             }
 
-            if (modifiedEntries.Any())
+            if (modifiedEntries.Count != 0)
             {
                 foreach (var entry in modifiedEntries)
                 {
