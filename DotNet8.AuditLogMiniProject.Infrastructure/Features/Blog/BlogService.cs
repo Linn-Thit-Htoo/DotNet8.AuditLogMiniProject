@@ -1,7 +1,7 @@
-﻿using DotNet8.AuditLogMiniProject.Domain.Features.Blog;
-using DotNet8.AuditLogMiniProject.DTOs.Features.Blog;
-using DotNet8.AuditLogMiniProject.Extensions;
-using DotNet8.AuditLogMiniProject.Utils;
+﻿global using DotNet8.AuditLogMiniProject.Domain.Features.Blog;
+global using DotNet8.AuditLogMiniProject.DTOs.Features.Blog;
+global using DotNet8.AuditLogMiniProject.Extensions;
+global using DotNet8.AuditLogMiniProject.Utils;
 
 namespace DotNet8.AuditLogMiniProject.Infrastructure.Features.Blog;
 
