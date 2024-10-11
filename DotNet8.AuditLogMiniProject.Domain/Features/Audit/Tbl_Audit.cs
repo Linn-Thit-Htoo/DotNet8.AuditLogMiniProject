@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace DotNet8.AuditLogMiniProject.Domain.Features.Audit;
+﻿namespace DotNet8.AuditLogMiniProject.Domain.Features.Audit;
 
 public class Tbl_Audit
 {
