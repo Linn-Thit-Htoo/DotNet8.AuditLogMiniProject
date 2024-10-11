@@ -2,6 +2,7 @@ using DotNet8.AuditLogMiniProject.Domain.Features.Blog;
 using DotNet8.AuditLogMiniProject.Infrastructure;
 using DotNet8.AuditLogMiniProject.Infrastructure.Features.Blog;
 using DotNet8.AuditLogMiniProject.Infrastructure.Interceptors;
+using DotNet8.AuditLogMiniProject.Presentation.Dependencies;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 
@@ -14,13 +15,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<AppDbContext>(opt =>
-{
-    opt.UseSqlServer(builder.Configuration.GetConnectionString("DbConnection"));
-    opt.AddInterceptors(new AuditInterceptor());
-}, ServiceLifetime.Transient, ServiceLifetime.Transient);
-
-builder.Services.AddScoped<IBlogService, BlogService>();
+builder.Services.AddDependencyInjection(builder);
 
 var app = builder.Build();
 
