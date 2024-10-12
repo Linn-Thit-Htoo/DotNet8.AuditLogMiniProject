@@ -1,10 +1,4 @@
-using DotNet8.AuditLogMiniProject.Domain.Features.Blog;
-using DotNet8.AuditLogMiniProject.Infrastructure;
-using DotNet8.AuditLogMiniProject.Infrastructure.Features.Blog;
-using DotNet8.AuditLogMiniProject.Infrastructure.Interceptors;
 using DotNet8.AuditLogMiniProject.Presentation.Dependencies;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
